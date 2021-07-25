@@ -10,12 +10,18 @@
 from pyspark import SparkContext
 import SparkModuleCall
 
-def testMethod(spark):
-    #sc = SparkContext("local", "count app")
-    df1 = spark.range(10)
-    print("^^^^^^^^^^^^^^^^^^^")
-    df1.show()
-    counts = df1.count()
-    print ("Number of elements in RDD -> %i" % (counts))
-    SparkModuleCall.printName("Test")
+sc = SparkContext("local", "count app")
+words = sc.parallelize (
+  ["scala",
+  "java",
+  "hadoop",
+  "spark",
+  "akka",
+  "spark vs hadoop",
+  "pyspark",
+  "pyspark and spark"]
+)
+counts = words.count()
+print ("Number of elements in RDD -> %i" % (counts))
+SparkModuleCall.printName("Test")
 # ----------------------------------------count.py---------------------------------------
