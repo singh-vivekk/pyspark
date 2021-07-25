@@ -14,7 +14,9 @@ Configure Github for the very first time.
     git config --global user.username singh-vivekk  #singh-vivekk is git public username
     git config --global user.email "viveksinghgopalganj@gmail.com"
     git config --global user.name "Vivek Singh"
+
     git remote add origin https://github.com/singh-vivekk/pyspark.git
+    git remote add origin https://github.com/singh-vivekk/python.git
 
 git status
 git add <files> (. for all files)
@@ -22,4 +24,6 @@ git commit -m "messages"
 git push
 
 
+Repository:
+https://github.com/singh-vivekk/pyspark/tree/master
 '''

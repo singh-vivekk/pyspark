@@ -1,0 +1,10 @@
+'''
+++++++++++++++++++++++++++++++++++++++++++++++
+Cloudera Quickstart with Docker installation:
+++++++++++++++++++++++++++++++++++++++++++++++
+Url: - https://hub.docker.com/r/cloudera/quickstart/
+
+Steps:
+1. sudo apt-get install docker.io
+2. docker pull cloudera/quickstart:latest
+3. sudo docker run --hostname=quickstart.cloudera --privileged=true -t -i -p 8888:8888 -p 80:80 -v /home/cloudera/Documents/ClouderaBindMount:/var/volume docker.io/cloudera/quickstart:latest /usr/bin/docker-quickstart
