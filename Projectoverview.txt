@@ -1,0 +1,14 @@
+'''Project for basic pyspark commands'''
+#Author: Vivek Singh
+
+'''
+How to setup Git:
+1. Download git for windows: https://git-scm.com/download/win
+2. Install git and launch git bash
+3. Create a directory (mkdir <dir-name>
+4. Initialize git (git init)
+5. Add a file to the directory
+6. Check that the file presence is captured by git or not (git status)
+
+Configure Github for the very first time.
+git config --global user.username singh-vivekk  #singh-vivekk is git public username
