@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/pysparkProject.iml" filepath="$PROJECT_DIR$/.idea/pysparkProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python_begineers/.idea/python_begineers.iml" filepath="$PROJECT_DIR$/../python_begineers/.idea/python_begineers.iml" />
     </modules>
   </component>
 </project>
