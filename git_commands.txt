@@ -1,0 +1,14 @@
+++++++++++++++++++++++++++++++++
+++++   Git Command list:    ++++
+++++++++++++++++++++++++++++++++
+
+To change the git upstream url:
+---------------------------------
+git remote set-url --push origin https://github.com/singh-vivekk/hive.git
+
+https://github.com/singh-vivekk/python.git
+
+
+To see the git upstream path:
+--------------------------------
+git remote -v

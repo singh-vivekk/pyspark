@@ -25,3 +25,14 @@ counts = words.count()
 print ("Number of elements in RDD -> %i" % (counts))
 SparkModuleCall.printName("Test")
 # ----------------------------------------count.py---------------------------------------
+
+rdd1=sc.textFile("GitSetup.txt")
+print(rdd1.take(10))
+
+rdd1.foreach(print)
+
+rdd2=rdd1.map(lambda x: (1,x))
+rdd2.foreach(print)
+
+rdd3=rdd1.flatMap(lambda x: x.split(" "))
+rdd3.foreach(print)

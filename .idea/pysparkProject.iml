@@ -6,5 +6,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="python_begineers" />
+    <orderEntry type="module" module-name="hiveProject" />
   </component>
 </module>
